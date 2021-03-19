@@ -1217,50 +1217,7 @@ span.see-more {
 
 
 
-/*
-!!!!
-This pen is being refactored
-!!!!
-*/
 
-/*
-=====
-DEPENDENCES
-=====
-
-
-.r-title{
-  margin-top: var(--rTitleMarginTop, 0) !important;
-  margin-bottom: var(--rTitleMarginBottom, 0) !important;
-}
-
-
-p:not([class]){
-  line-height: var(--cssTypographyLineHeight, 1.78);
-  margin-top: var(--cssTypographyBasicMargin, 1em);
-  margin-bottom: 0;
-}
-
-p:not([class]):first-child{
-  margin-top: 0;
-}
-
-/*
-text component
-
-
-.text{
-  display: var(--textDisplay, inline-flex);
-  font-size: var(--textFontSize, 1rem);  
-}
-
-/*
-time component
-*/
-
-/*
-core styles
-*/
 
 .time{
   display: var(--timeDisplay, inline-flex);
@@ -1282,8 +1239,8 @@ skin
   padding: var(--timePadding, .25rem 1.25rem .25rem);
   background-color: var(--timeBackgroundColor, #f0f0f0);
 
-  font-size: var(--timeFontSize, .75rem);
-  font-weight: var(--timeFontWeight, 700);
+  font-size: var(--timeFontSize, .95rem);
+  font-weight: var(--timeFontWeight, 900);
  /* text-transform: var(--timeTextTransform, uppercase);*/
   color: var(--timeColor, currentColor);
 }
