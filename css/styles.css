@@ -1227,7 +1227,7 @@ This pen is being refactored
 =====
 DEPENDENCES
 =====
-*/
+
 
 .r-title{
   margin-top: var(--rTitleMarginTop, 0) !important;
@@ -1247,7 +1247,7 @@ p:not([class]):first-child{
 
 /*
 text component
-*/
+
 
 .text{
   display: var(--textDisplay, inline-flex);
@@ -1284,7 +1284,7 @@ skin
 
   font-size: var(--timeFontSize, .75rem);
   font-weight: var(--timeFontWeight, 700);
-  text-transform: var(--timeTextTransform, uppercase);
+ /* text-transform: var(--timeTextTransform, uppercase);*/
   color: var(--timeColor, currentColor);
 }
 
