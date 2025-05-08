@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subin K Soman - Personal Portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+ 
+</head>
+
+<body>
+  <!-- MAIN -->
+  <main>
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Subin K Soman" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Subin K Soman">SUBIN K SOMAN</h1>
+
+          <div class="tags">
+            <span class="tag">Senior Tech Lead</span>
+            <span class="tag">Distributed Systems</span>
+            <span class="tag">Telecom Solutions</span>
+            <span class="tag">Generative AI</span>
+          </div>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:tosubins@gmail.com" class="contact-link">tosubins@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+917406719959" class="contact-link">+917406719959</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1990-03-30">March 30, 1990</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Bengaluru, Karnataka, IN</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" aria-label="Twitter">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Senior Tech Lead at 6d Technologies, bringing over 11 years of experience in the IT industry, with deep expertise in the Telecom domain. I specialize in architecting and building scalable, distributed systems capable of handling traffic for 40–50 million+ subscribers.
+          </p>
+
+          <p>
+            I'm passionate about system design, scalable architectures, and have recently been working on Generative AI integrations to enhance telecom platforms through automation, natural language interfaces, and intelligent workflows.
+          </p>
+          
+          <p>
+            My tech stack includes Java, Scala, Python, Spring, FastAPI, Docker, Kubernetes, Kafka, NoSQL/SQL databases, and telecom protocols like SMPP and Diameter. I also have hands-on experience in ETL, cloud integrations, Azure Active Directory, and implementing GenAI-based solutions for analytics, customer experience, and operations optimization.
+          </p>
+          
+          <p>
+            With a strong focus on problem-solving, performance optimization, and full SDLC delivery, I'm committed to driving innovation at the intersection of telecom and AI.
+          </p>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design scalable architectures</h4>
+                <p class="service-item-text">
+                  I specialize in architecting and building scalable, distributed systems capable of handling traffic for 40–50 million+ subscribers.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ETL Solution</h4>
+                <p class="service-item-text">
+                  ETL solutions for telecom data, ensuring efficient data processing and integration.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Generative AI</h4>
+                <p class="service-item-text">
+                  Generative AI integrations to enhance telecom platforms through automation, natural language interfaces, and intelligent workflows.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">SMS solutions</h4>
+                <p class="service-item-text">
+                  Message gateway using SMPP.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- TECH STACKS -->
+        <section class="clients">
+          <h3 class="h3 clients-title">Tech Stacks</h3>
+
+          <div class="tech-stack-container">
+            <ul class="tech-stack-list">
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/java.png" alt="Java">
+                </div>
+                <span class="tech-name">Java</span>
+              </li>
+
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/python.png" alt="Python">
+                </div>
+                <span class="tech-name">Python</span>
+              </li>
+
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/scala.png" alt="Scala">
+                </div>
+                <span class="tech-name">Scala</span>
+              </li>
+
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/micro.png" alt="Microservices">
+                </div>
+                <span class="tech-name">Microservices</span>
+              </li>
+
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/etl.png" alt="ETL">
+                </div>
+                <span class="tech-name">ETL</span>
+              </li>
+
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/sms.png" alt="SMS">
+                </div>
+                <span class="tech-name">SMPP</span>
+              </li>
+
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/diameter.png" alt="Diameter">
+                </div>
+                <span class="tech-name">Diameter</span>
+              </li>
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/kafka.png" alt="Kafka">
+                </div>
+                <span class="tech-name">Kafka</span>
+              </li>
+              <li class="tech-stack-item">
+                <div class="tech-icon">
+                  <img src="./assets/images/nifi.png" alt="nifi">
+                </div>
+                <span class="tech-name">NiFi</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Senior Technical Lead, 6D Technologies</h4>
+              <span>Jul 2021 — Present</span>
+              <p class="timeline-text">
+                Design and development of scalable architectures for telecom products to drive revenue growth by analyzing telecom data through custom solutions, including ETL jobs, analytics platforms, SMS gateways, and charging gateways.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Technical Lead, 6D Technologies</h4>
+              <span>Jul 2018 - Jul 2021 · 3 yrs 1 mo</span>
+              <p class="timeline-text">
+                Design and development of scalable architectures for telecom products to drive revenue growth by analyzing telecom data through custom solutions, including ETL jobs, analytics platforms, SMS gateways, and charging gateways.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Senior Software Engineer, 6D Technologies</h4>
+              <span>Jul 2015 - Jul 2018 · 3 yrs 1 mo</span>
+              <p class="timeline-text">
+                Skills: Extract, Transform, Load (ETL) · Spring Boot · Microservices
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer, 6D Technologies</h4>
+              <span>Jul 2013 - Jul 2015 · 2 yrs 1 mo</span>
+              <p class="timeline-text">
+                Skills: Extract, Transform, Load (ETL) · Spring Boot · Microservices
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CUSAT-College of Engineering Munn B.Tech, Computer Science & Engineering</h4>
+              <span>2010 — 2013</span>
+              <p class="timeline-text">
+                Activities and societies: Member at IEEE, Member at FOSS Supporters Group
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Model Polytechnic College Painavu, Diploma in Computer Hardware Maintenance</h4>
+              <span>2007 - 2010</span>
+              <p class="timeline-text">
+                Activities and societies: FSUG Idukki, IEEE
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.01282528317!2d77.59791087574862!3d12.971598915638837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sin!4v1683555421851!5m2!1sen!2sin"
+              width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
